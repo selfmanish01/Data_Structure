@@ -1,14 +1,12 @@
 #include <iostream>
-#include <string>
- using namespace std;
-class Vehicle
-{
-private:
-    int maxSpeed;
+using namespace std;
+  class Vehicle{
+    public:
+        string color;
 
-protected:
-    int numTyres;
+    private:
+        int maxSpeed;
 
-public:
-    string color;
-};
+    protected:
+        int numTyres;
+  };
