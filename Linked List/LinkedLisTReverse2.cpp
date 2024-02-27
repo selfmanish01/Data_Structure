@@ -7,7 +7,7 @@ using namespace std;
           this->data = data;
           next = nullptr;
       }
-
+// linked
     Node* reverseLL(Node*head){
         Node *prev = nullptr;
         Node *current = head;
